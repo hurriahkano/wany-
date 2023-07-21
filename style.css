@@ -1,0 +1,95 @@
+*
+{
+ margin: 0; 
+ padding: 0; 
+ box-sizing: border-box; 
+ font-family: Arial, Helvetica, sans-serif;
+}
+section
+{
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+section header
+{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    padding: 20px;
+}
+section header ul
+ {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+ section header ul li
+ {
+    list-style: none;
+    margin-left: 20px;
+ }
+ section header ul li a
+ {
+    color: black;
+    text-decoration: none;
+    font-size: 13px;}
+    .material-symbols-outlined{
+        font-variation-settings:
+        'FILL' 0,
+        'wght' 400,
+        'GRAD' 0,
+        'opsz' 48;
+ }
+ section header ul li button 
+ {
+   background: #4584ef;
+   border: none;
+   outline: none;
+   padding: 8px 14px;
+   color: #fff;
+   font-size: 14px;
+   font-weight: 700;
+   border-radius: 3px;
+   cursor: pointer;
+
+   
+ }
+  .kano
+  {
+   margin: 50px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   padding: 25%;
+   font-size: 35px;
+   position:absolute;
+   
+  }
+ 
+.search{
+   display: flex;
+   flex: 100%;
+   border: solid 1px;
+   justify-content: space-between;
+   padding: 10px;
+   border-radius: 50px;
+   width: 60%;
+   height: 30px;
+
+
+}
+
+
+
+
+
+
+
+
